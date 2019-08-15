@@ -8,10 +8,14 @@ const initialState = {
 
 export function user(state = initialState, action)
 {
+    // if(action.type === "SET_USER") debugger
     switch(action.type){
         case "SET_USER":
+            return action.payload;
+        case "SET_PREFERENCE":
             return {
-                id: 1
+                ...state,
+                preference: action.payload
             };
         default:
             return state;

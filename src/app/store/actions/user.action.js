@@ -5,16 +5,16 @@ export function setUser(user){
     }
 }
 
-// export function setPreference(preference){
-//     return {
-//         type: "SET_PREFERENCE",
-//         preference
-//     }
-// }
+export function setPreference(preference){
+    return {
+        type: "SET_PREFERENCE",
+        preference
+    }
+}
 
-// export function setProfile(preference){
-//     return {
-//         type: "SET_PROFILE",
-//         preference
-//     }
-// }
+export function setProfile(preference){
+    return {
+        type: "SET_PROFILE",
+        preference
+    }
+}

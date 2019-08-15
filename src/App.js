@@ -18,6 +18,7 @@ function App() {
           <Route exact path="/auth/login" name="Home" component={Login} />
         </Switch>
       </BrowserRouter>
+      <Home/>
     </Provider>
   );
 }
