@@ -1,7 +1,7 @@
 import React, { Component }  from 'react';
 import Alert from 'react-bootstrap/Alert';
 
-class DefaultPage extends Component {
+class Home extends Component {
     render() {
         return (
             <div>
@@ -28,4 +28,4 @@ class DefaultPage extends Component {
     }
 }
 
-export default DefaultPage;
+export default Home;
